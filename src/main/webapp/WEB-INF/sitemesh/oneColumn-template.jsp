@@ -18,8 +18,13 @@
         Passing arbitrary data between JSP pages and SiteMesh decorators
         https://weblogs.java.net/blog/zarar/archive/2006/01/passing_arbitra.html
 
-        Using this technique, I will stoe the top nav and lower nav values in the
-        page, use SiteMesh to set it then put it in the request scope so other
+        Using this technique, I will stoe the top nav and lower nav values in a
+        request scope variable, useing SiteMesh's decorator tag to pull it out of
+        the meta data of the target.
+
+        for example, the inventory.jsp page will have....
+        <content tag="topnav">inventory</content>
+        <content tag="lownav">inventory</content>
         --%>
         <c:set var="currentTopNavMenu" scope="request"><decorator:getProperty property="page.topnav"/></c:set>
         <c:set var="currentLowNavMenu" scope="request"><decorator:getProperty property="page.lownav"/></c:set>
