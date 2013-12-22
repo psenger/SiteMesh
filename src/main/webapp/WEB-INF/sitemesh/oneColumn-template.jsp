@@ -25,7 +25,7 @@
         <c:set var="currentLowNavMenu" scope="request"><decorator:getProperty property="page.lownav"/></c:set>
 
         <div id='topnav'><%@ include file="common/topnav.jsp" %></div>
-        <div id='lownav'><%= ( request.getAttribute("contextMenu") != null) ?  request.getAttribute("contextMenu") : "" %></div>
+        <div id='lownav'><jsp:include page="common/lownav-${requestScope.currentLowNavMenu}.jsp"/></div>
 
         <decorator:body />
 

@@ -1,6 +1,6 @@
 <meta name="decorator" content="basic-one-column-theme"/>
 <content tag="topnav">inventory</content>
-<content tag="lownav">A-2</content>
+<content tag="lownav">inventory</content>
 <html>
     <head>
         <title>hello</title>

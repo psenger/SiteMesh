@@ -1,6 +1,6 @@
 <meta name="decorator" content="basic-one-column-theme"/>
 <content tag="topnav">home</content>
-<content tag="lownav">A-2</content>
+<content tag="lownav">home</content>
 <html>
     <head>
         <title>hello</title>
