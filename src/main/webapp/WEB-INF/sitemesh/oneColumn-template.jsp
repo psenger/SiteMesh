@@ -6,6 +6,11 @@
         <meta http-equiv="Pragma" content="no-cache"/>
         <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+        <style>
+          .active {
+              background-color: cornflowerblue;
+          }
+        </style>
         <decorator:head />
     </head>
     <body>

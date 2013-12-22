@@ -1,8 +1,8 @@
 <html>
-<head>
-    <title>hello</title>
-</head>
-<body>
-This should not use a template.
-</body>
+    <head>
+        <title>hello</title>
+    </head>
+    <body>
+        This file should not use a template.
+    </body>
 </html>
